@@ -30,8 +30,10 @@ Todo items for the service itself
 
 - [ ] Multi-Architecture Container Images
   - [ ] Wireguard
-  - [ ] Healthcheck system/service
+  - [ ] Controller Sidecar
     - [ ] Provides Liveness/Readiness Probe endpoints
+    - [ ] Watches for configMap and secret changes
+    - [ ] 
   - [ ] Host `ip route` update service
   - [ ] Init-Container
     - [ ] necessary host dependencies
