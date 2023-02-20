@@ -1,0 +1,16 @@
+apiVersion: v2
+name: wirekube
+description: Run Wireguard within your Kubernetes Cluster
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+kubeVersion: ">=1.24.0-0"
+keywords:
+- wireguard
+- vpn
+- multi-cluster
+- networking
+home: https://github.com/danmanners/wirekube/tree/main/charts/stable/wirekube
+maintainers:
+- name: danmanners
+  email: daniel.a.manners@gmail.com

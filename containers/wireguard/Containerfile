@@ -1,0 +1,11 @@
+FROM docker.io/library/debian:bullseye-slim
+
+# set version label
+ARG BUILD_DATE
+ARG VERSION
+ARG WIREGUARD_RELEASE
+
+ENV DEBIAN_FRONTEND="noninteractive"
+
+RUN apt install -y \
+    wireguard wireguard-tools
