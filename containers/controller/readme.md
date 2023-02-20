@@ -1,4 +1,8 @@
-# WireGuard Status
+# WireGuard Controller
+
+Needs to do a bunch of things for the wireguard service; [check the specs doc here](../../spec/containers/controller.md).
+
+## Healthz endpoint
 
 Container checks the port open/close status of the wireguard service
 
